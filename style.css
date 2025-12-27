@@ -28,6 +28,7 @@ body {
 .navbar {
     display: flex;
     align-items: center;
+    gap: 20px;
     padding: 11px;
     border-radius: 6px;
     border-bottom: 1px solid rgb(77, 77, 89);
@@ -44,7 +45,7 @@ body {
 }
 
 .button-top {
-    margin-left: 55%;
+    margin-left: auto;
 
 
 }
@@ -66,15 +67,17 @@ body {
     border: 1px solid #555;
     border-radius: 4px;
     padding: 4px;
+
 }
 
 .Copilot-img img {
-    height: 18px;
-    margin-right: 3px;
+    height: 15px;
+    margin-right: 2px;
     border-right: 1px solid #555;
     /*right side lining */
     padding-right: 4px;
 }
+
 
 .form-select {
     /* appearance: none; */
@@ -85,10 +88,6 @@ body {
     border: none;
 }
 
-.text {
-    font-size: 18px;
-    /*  IN UPDATAE*/
-}
 
 
 .inside-div {
@@ -97,29 +96,81 @@ body {
     background-color: #1e1e1e;
     border: 1px solid #555;
     border-radius: 4px;
-    padding: 7px;
-    /* gap: 10px; */
+    padding: 3px;
+    gap: 10px;
 }
 
 .puls-img img {
     height: 8px;
-    width: 20px;
-    height: 15px;
+    width: 18px;
+    height: auto;
     margin-right: 3px;
-    border-right: 1px solid #555;  /*right side lining */
-    padding-right: 4px;
+    border-right: 1px solid #555;
+    /*right side lining */
+
 }
 
 .form-select1 {
-    font-size: 18px;
+    font-size: 14px;
     background-color: #1e1e1e;
     color: white;
     font-size: 14px;
+    margin-right: 2px;
     width: 14px;
     border: none;
-    border-radius:8px sloid ; 
-    /* in work */
+
 }
 
+.dot-cricle img {
+    width: 28px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    border-radius: 4px;
+    /* padding: 3px; */
+}
 
+.pull-img img {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    border-radius: 4px;
 
+}
+
+.repost-img img {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #555;
+    background-color: #1e1e1e;
+    border-radius: 4px;
+
+}
+
+.unread-massage img {
+    width: 25px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #555;
+    background-color: #1e1e1e;
+    border-radius: 4px;
+}
+
+.Default img {
+    width: 35px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #555;
+    background-color: #1e1e1e;
+    border-radius: 50%;
+    object-fit: cover;
+}
